@@ -3,7 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 # Excel файлыг унших
-file_path = 'D:/web/disease_analysis_results.xlsx'
+# file_path = 'D:/web/disease_analysis_results.xlsx'
+file_path ='https://raw.githubusercontent.com/Reina0326/barchart-app/main/disease_analysis_results.xlsx'
 excel_data = pd.ExcelFile(file_path)
 sheet_names = excel_data.sheet_names
 
